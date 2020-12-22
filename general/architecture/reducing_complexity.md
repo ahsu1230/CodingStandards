@@ -4,6 +4,11 @@
 >
 > A Philosophy of Software Design ~ John Ousterhout (Chapter 2)
 
+
+## Definition of Complexity
+
+The overall complexity can be seen as the sum of `c*p` where `c` is the complexity value of some part of the codebase and `p` is a weight that represents the time developers spend on that part. So this means that the total "complexity" of a codebase is most affected by the complexity of portions that are frequently developed on.
+
 ## Symptoms of a complex codebase:
 
 - Change amplification

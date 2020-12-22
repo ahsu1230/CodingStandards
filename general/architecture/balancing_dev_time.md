@@ -23,5 +23,18 @@ As a software architect, it is absolutely **your** job to focus on architecture 
 
 ## Tactical programming vs Strategic programming
 
-Tactical programming
-Strategic programming
+*A Philosophy of Software Design* (Chapter 3)
+
+- Tactical programming
+  - Get something working ASAP... and refactor / "clean things up" later.
+  - This is "reactive" programming - reacting to what short-sighted tasks at hand.
+  - Don't be a tactical tornado!
+
+- Strategic programming
+  - Working code isn't enough!
+  - Get it to work AND produce a good design
+  - Proactive programming - Take a little extra time to define a simple design before creating a new class.
+
+> Facebook's old motto: "Move fast and break things"
+>
+> Facebook's new motto: "Move fast with solid infrastructure"

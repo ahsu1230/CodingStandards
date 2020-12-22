@@ -63,6 +63,8 @@ As a developer though, you should try to lean to the latter as much as possible.
   - Functional programming can basically solve all race conditions, deadlocks, and concurrency problems because anonymous functions do NOT mutate control variables (unlike a loop). The anonymous function keeps immutability over the control variable and thus will never cause race conditions.
   - Separate your components into mutable and non-mutable. This includes variables and classes (abstract classes vs. implemented classes).
   - If they're separated correctly, you can protect the mutable components (via locks, for example).
+
+
 <details>
     <summary>
         Another approach to immutable data management: Event Sourcing
