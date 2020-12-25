@@ -88,3 +88,24 @@ function plantTree() {
 ```
 
 </details>
+
+<details>
+    <summary>
+    Explain Yourself in Code
+    </summary>
+
+There are certainly times when code makes a poor vehicle for explanation. Unfortunately, many programmers have taken this to mean that code is seldom, if ever, a good means for explanation. This is patently false. Which would you rather see? This:
+
+```
+// Check to see if the employee is eligible for full benefits
+if (employee.flags & HOURLY_FLAG) && (employee.age > 65)
+```
+
+Or this?
+
+```
+if (employee.isEligibleForFullBenefits())
+```
+
+It takes only a few seconds of thought to explain most of your intent in code. In many cases it's simply a matter of creating a function that says the same thing as the comment you want to write.
+</details>

@@ -15,3 +15,8 @@
   - Always use the same common name for the common purpose!
   - Never use common name for anything else other than that common purpose!
   - Make sure both name and purpose and narrow enough so when it is mentioned, it conveys the same behavior!
+
+
+> The hardest thing about choosing good names is that it requires good descriptive skills and a shared cultural background. This is a teaching issue rather than a technical, business, or management issue. As a result many people in this field don't learn to do it very well.
+> 
+> Philosophy of Software Design
